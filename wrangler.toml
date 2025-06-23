@@ -1,2 +1,6 @@
-name = "me-worker-app"
+name = "my-sveltekit-app"
 compatibility_date = "2025-06-23"
+account_id = "a34d51ae8ab866e78efcac9e8863f203"
+workers_dev = true
+
+main = "src/index.ts"
