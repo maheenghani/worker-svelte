@@ -1,12 +1,9 @@
 name = "my-sveltekit-site"
-type = "javascript"
-
 compatibility_date = "2024-06-01"
 
 [build]
 command = "npm run build"
-upload.format = "modules"
-upload.dir = ".svelte-kit/cloudflare"
 
-[site]
-bucket = "./static"
+[upload]
+format = "modules"
+dir = ".svelte-kit/cloudflare"
