@@ -1,4 +1,4 @@
-name = "my-sveltekit-site"
+name = "sveltekit-worker-demo"
 compatibility_date = "2024-06-01"
 
 [build]
