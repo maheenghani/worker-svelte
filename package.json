@@ -45,6 +45,7 @@
 		"vitest-browser-svelte": "^0.1.0"
 	},
 	"dependencies": {
+		"@sveltejs/adapter-cloudflare": "^7.0.4",
 		"@sveltejs/adapter-cloudflare-workers": "^2.9.0"
 	}
 }
