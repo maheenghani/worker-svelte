@@ -1,6 +1,12 @@
-name = "my-sveltekit-app"
-compatibility_date = "2025-06-23"
-account_id = "a34d51ae8ab866e78efcac9e8863f203"
-workers_dev = true
+name = "my-sveltekit-site"
+type = "javascript"
 
-main = "src/index.ts"
+compatibility_date = "2024-06-01"
+
+[build]
+command = "npm run build"
+upload.format = "modules"
+upload.dir = ".svelte-kit/cloudflare"
+
+[site]
+bucket = "./static"
